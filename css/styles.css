@@ -4,3 +4,150 @@
 
 /* Не забыть
 поставить в сервис на аш2 все буквы маленькие */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: var(--main-color);
+  background-color: var(--light-light-color);
+  min-width: 1440px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+:root {
+  --main-color: #333333;
+  --light-light-color: #ffffff;
+  --light-color: #d9d9d9;
+  --dark-color: #000000;
+  --primary-color: #2c3878;
+}
+
+.header {
+}
+
+.section {
+  padding-left: 120px;
+  padding-right: 120px;
+  border: 1px solid darkcyan;
+}
+.header-navidation {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.link {
+}
+
+.logo {
+  color: var(--dark-color);
+  font-size: 32px;
+  line-height: 1.7;
+  font-weight: 700;
+}
+
+.nav-list {
+  width: 718px;
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-item + .nav-item {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: var(--main-color);
+  line-height: calc(25.6px / 16px);
+  text-transform: capitalize;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  font-weight: 600;
+  line-height: calc(22.4px / 16px);
+}
+
+.btn-view {
+  background-color: var(--primary-color);
+  color: var(--light-light-color);
+  padding: 14px 32px;
+}
+
+.hero {
+  padding-top: 97px;
+}
+
+.hero-title {
+  font-size: 72px;
+  line-height: 1.4;
+  width: 681px;
+}
+
+.hero-bcg {
+  position: absolute;
+left: 120px;
+top: 540px;
+background-color: var(--light-color); }
+
+.numbers-list {
+  background-color: var(--primary-color);
+  width: 252px;
+  padding: 40px 48px;
+  text-align: center;
+  position: absolute;
+  left: 926px;
+top: 331px;
+}
+
+.numbers-item + .numbers-item {
+  margin-top: 57px;
+}
+
+.number-text {
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--light-light-color);
+}
+
+.number {
+  font-size: 52px;
+  line-height: 1.6;
+  color: var(--light-light-color);
+}
+
+.column-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--main-color);
+  text-transform: uppercase;
+  position: absolute;
+left: 1266px;
+top: 482px;
+transform: rotate(-90deg);
+}
